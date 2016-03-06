@@ -1,0 +1,28 @@
+{
+    "name": "gbprod/doctrine-specification-bundle",
+    "description": "This bundle integrates Doctrine specification with Symfony",
+    "type": "bundle",
+    "require": {
+        "php": ">=5.5",
+        "symfony/framework-bundle": ">=3.0",
+        "gbprod/doctrine-specification": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.0",
+        "satooshi/php-coveralls": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GBProd",
+            "email": "contact@gb-prod.fr"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "autoload": {
+        "psr-4": {
+            "GBProd\\": "src/",
+            "Tests\\GBProd\\": "tests/"
+        }
+    }
+}
