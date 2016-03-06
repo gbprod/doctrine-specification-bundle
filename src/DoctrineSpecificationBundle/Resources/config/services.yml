@@ -1,0 +1,8 @@
+services:
+    gbprod.doctrine_specification_registry:
+        class: GBProd\DoctrineSpecification\Registry
+        
+    gbprod.doctrine_specification_handler:
+        class: GBProd\DoctrineSpecification\Handler
+        arguments:
+            - "@gbprod.doctrine_specification_registry"

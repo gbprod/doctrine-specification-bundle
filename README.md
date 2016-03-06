@@ -2,6 +2,10 @@
 
 This bundle integrates [doctrine-specification](git@github.com:gbprod/doctrine-specification.git) with Symfony.
 
+[![Build Status](https://travis-ci.org/gbprod/doctrine-specification-bundle.svg?branch=master)](https://travis-ci.org/gbprod/doctrine-specification-bundle) [![Build Status](https://travis-ci.org/gbprod/doctrine-specification-bundle.svg?branch=master)](https://travis-ci.org/gbprod/doctrine-specification-bundle) [![Code Climate](https://codeclimate.com/github/gbprod/doctrine-specification-bundle/badges/gpa.svg)](https://codeclimate.com/github/gbprod/doctrine-specification-bundle)
+
+
+
 ## Installation
 
 Download bundle using [composer](https://getcomposer.org/) :
