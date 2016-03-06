@@ -4,7 +4,7 @@ This bundle integrates [doctrine-specification](git@github.com:gbprod/doctrine-s
 
 [![Build Status](https://travis-ci.org/gbprod/doctrine-specification-bundle.svg?branch=master)](https://travis-ci.org/gbprod/doctrine-specification-bundle) [![Build Status](https://travis-ci.org/gbprod/doctrine-specification-bundle.svg?branch=master)](https://travis-ci.org/gbprod/doctrine-specification-bundle) [![Code Climate](https://codeclimate.com/github/gbprod/doctrine-specification-bundle/badges/gpa.svg)](https://codeclimate.com/github/gbprod/doctrine-specification-bundle)
 
-
+[![Latest Stable Version](https://poser.pugx.org/gbprod/doctrine-specification-bundle/v/stable)](https://packagist.org/packages/gbprod/doctrine-specification) [![Total Downloads](https://poser.pugx.org/gbprod/doctrine-specification-bundle/downloads)](https://packagist.org/packages/gbprod/doctrine-specification) [![Latest Unstable Version](https://poser.pugx.org/gbprod/doctrine-specification-bundle/v/unstable)](https://packagist.org/packages/gbprod/doctrine-specification) [![License](https://poser.pugx.org/gbprod/doctrine-specification-bundle/license)](https://packagist.org/packages/gbprod/doctrine-specification)
 
 ## Installation
 
