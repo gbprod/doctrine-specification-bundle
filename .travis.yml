@@ -12,11 +12,10 @@ env:
     - SYMFONY_VERSION=2.7.*
     - SYMFONY_VERSION=2.8.*
     - SYMFONY_VERSION=3.0.*
-    - SYMFONY_VERSION=dev-master
 
 before_script:
     - composer self-update
-    - composer require symfony/framework-bundle:${SYMFONY_VERSION} --no-update
+    - composer require symfony/symfony:${SYMFONY_VERSION} --no-update
     - composer update --no-interaction --prefer-source
     - mkdir -p build/logs
 

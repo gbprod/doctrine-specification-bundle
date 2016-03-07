@@ -4,7 +4,7 @@
     "type": "bundle",
     "require": {
         "php": ">=5.5",
-        "symfony/framework-bundle": ">=3.0",
+        "symfony/symfony": "^2.3|^3.0",
         "gbprod/doctrine-specification": "dev-master"
     },
     "require-dev": {

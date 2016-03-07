@@ -612,12 +612,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gbprod/doctrine-specification.git",
-                "reference": "344afbdced1badc5fc002651c6ddd786c9f58445"
+                "reference": "c4c5eee4ad6b139004fab74448a11a6fc63853b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gbprod/doctrine-specification/zipball/344afbdced1badc5fc002651c6ddd786c9f58445",
-                "reference": "344afbdced1badc5fc002651c6ddd786c9f58445",
+                "url": "https://api.github.com/repos/gbprod/doctrine-specification/zipball/c4c5eee4ad6b139004fab74448a11a6fc63853b8",
+                "reference": "c4c5eee4ad6b139004fab74448a11a6fc63853b8",
                 "shasum": ""
             },
             "require": {
@@ -646,7 +646,7 @@
                 }
             ],
             "description": "This library allows you to write Doctrine ORM queries using the specification pattern",
-            "time": "2016-03-06 08:48:35"
+            "time": "2016-03-07 20:33:17"
         },
         {
             "name": "gbprod/specification",
