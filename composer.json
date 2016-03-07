@@ -5,7 +5,7 @@
     "require": {
         "php": ">=5.5",
         "symfony/symfony": "^2.3|^3.0",
-        "gbprod/doctrine-specification": "dev-master"
+        "gbprod/doctrine-specification": "0.0.*@alpha"
     },
     "require-dev": {
         "phpunit/phpunit": ">=4.0",
