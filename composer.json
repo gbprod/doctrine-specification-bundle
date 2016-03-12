@@ -5,7 +5,8 @@
     "require": {
         "php": ">=5.5",
         "symfony/framework-bundle": "^2.3|^3.0",
-        "gbprod/doctrine-specification": "^0.1"
+        "gbprod/doctrine-specification": "^0.1",
+        "symfony/expression-language": "^2.4|^3.0"
     },
     "require-dev": {
         "phpunit/phpunit": ">=4.0"
@@ -17,7 +18,6 @@
             "email": "contact@gb-prod.fr"
         }
     ],
-    "minimum-stability": "alpha",
     "autoload": {
         "psr-4": {
             "GBProd\\": "src/",
