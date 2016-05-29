@@ -5,7 +5,7 @@ This bundle integrates [doctrine-specification](git@github.com:gbprod/doctrine-s
 [![Build Status](https://travis-ci.org/gbprod/doctrine-specification-bundle.svg?branch=master)](https://travis-ci.org/gbprod/doctrine-specification-bundle) 
 [![codecov](https://codecov.io/gh/gbprod/doctrine-specification-bundle/branch/master/graph/badge.svg)](https://codecov.io/gh/gbprod/doctrine-specification-bundle)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gbprod/doctrine-specification-bundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gbprod/doctrine-specification-bundle/?branch=master)
-[![Dependency Status](https://www.versioneye.com/user/projects/574a9c9cce8d0e004505f9db/badge.svg)](https://www.versioneye.com/user/projects/574a9c9cce8d0e004505f9db)
+[![Dependency Status](https://www.versioneye.com/user/projects/574a9c9ace8d0e004130d337/badge.svg)](https://www.versioneye.com/user/projects/574a9c9ace8d0e004130d337)
 
 [![Latest Stable Version](https://poser.pugx.org/gbprod/doctrine-specification-bundle/v/stable)](https://packagist.org/packages/gbprod/doctrine-specification) 
 [![Total Downloads](https://poser.pugx.org/gbprod/doctrine-specification-bundle/downloads)](https://packagist.org/packages/gbprod/doctrine-specification) 
