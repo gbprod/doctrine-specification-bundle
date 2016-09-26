@@ -7,10 +7,10 @@ This bundle integrates [doctrine-specification](git@github.com:gbprod/doctrine-s
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gbprod/doctrine-specification-bundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gbprod/doctrine-specification-bundle/?branch=master)
 [![Dependency Status](https://www.versioneye.com/user/projects/574a9c9ace8d0e004130d337/badge.svg)](https://www.versioneye.com/user/projects/574a9c9ace8d0e004130d337)
 
-[![Latest Stable Version](https://poser.pugx.org/gbprod/doctrine-specification-bundle/v/stable)](https://packagist.org/packages/gbprod/doctrine-specification) 
-[![Total Downloads](https://poser.pugx.org/gbprod/doctrine-specification-bundle/downloads)](https://packagist.org/packages/gbprod/doctrine-specification) 
-[![Latest Unstable Version](https://poser.pugx.org/gbprod/doctrine-specification-bundle/v/unstable)](https://packagist.org/packages/gbprod/doctrine-specification) 
-[![License](https://poser.pugx.org/gbprod/doctrine-specification-bundle/license)](https://packagist.org/packages/gbprod/doctrine-specification)
+[![Latest Stable Version](https://poser.pugx.org/gbprod/doctrine-specification-bundle/v/stable)](https://packagist.org/packages/gbprod/doctrine-specification-bundle)
+[![Total Downloads](https://poser.pugx.org/gbprod/doctrine-specification-bundle/downloads)](https://packagist.org/packages/gbprod/doctrine-specification-bundle)
+[![Latest Unstable Version](https://poser.pugx.org/gbprod/doctrine-specification-bundle/v/unstable)](https://packagist.org/packages/gbprod/doctrine-specification-bundle)
+[![License](https://poser.pugx.org/gbprod/doctrine-specification-bundle/license)](https://packagist.org/packages/gbprod/doctrine-specification-bundle)
 
 ## Installation
 
