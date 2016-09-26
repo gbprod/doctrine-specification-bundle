@@ -60,20 +60,20 @@ class IsAvailable implements Specification
 }
 ```
 
-### Create an expression builder
+### Create a query factory
 
 ```php
 <?php
 
-namespace GBProd\Acme\Infrastructure\Doctrine\ExpressionBuilder\Product;
+namespace GBProd\Acme\Infrastructure\Doctrine\QueryFactory\Product;
 
-use GBProd\DoctrineSpecification\ExpressionBuilder\Builder;
+use GBProd\DoctrineSpecification\QueryFactory\Factory;
 use GBProd\Specification\Specification;
 use Doctrine\ORM\QueryBuilder;
 
-class IsAvailableBuilder implements Builder
+class IsAvailableFactory implements Factory
 {
-    public function build(Specification $spec, QueryBuilder $qb)
+    public function create(Specification $spec, QueryBuilder $qb)
     {
         return $qb->expr()
             ->andx(
@@ -87,16 +87,16 @@ class IsAvailableBuilder implements Builder
 
 ## Configuration
 
-### Declare your Builder
+### Declare your factory
 
 ```yaml
 // src/GBProd/Acme/AcmeBundle/Resource/config/service.yml
 
 services:
-    acme.doctrine.expression_builder.is_available:
-        class: GBProd\Acme\Infrastructure\Doctrine\ExpressionBuilder\Product\IsAvailableBuilder
+    acme.doctrine.query_factory.is_available:
+        class: GBProd\Acme\Infrastructure\Doctrine\QueryFactory\Product\IsAvailableFactory
         tags:
-            - { name: doctrine.expression_builder, specification: GBProd\Acme\CoreDomain\Specification\Product\IsAvailable }
+            - { name: doctrine.query_factory, specification: GBProd\Acme\CoreDomain\Specification\Product\IsAvailable }
 ```
 
 ### Inject handler in your repository class

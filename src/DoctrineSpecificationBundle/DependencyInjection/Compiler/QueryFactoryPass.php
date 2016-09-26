@@ -7,11 +7,11 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Reference;
 
 /**
- * Register doctrine expression builder
- * 
- * @author gbprod 
+ * Register doctrine QueryFactory
+ *
+ * @author gbprod
  */
-class ExpressionBuilderPass implements CompilerPassInterface
+class QueryFactoryPass implements CompilerPassInterface
 {
     /**
      * {inheritdoc}
@@ -25,17 +25,17 @@ class ExpressionBuilderPass implements CompilerPassInterface
         $handler = $container
             ->findDefinition('gbprod.doctrine_specification_handler')
         ;
-        
-        $builders = $container->findTaggedServiceIds('doctrine.expression_builder');
-        
+
+        $builders = $container->findTaggedServiceIds('doctrine.query_factory');
+
         foreach ($builders as $id => $tags) {
             foreach ($tags as $attributes) {
                 if (!isset($attributes['specification'])) {
-                    throw new \Exception('The doctrine.expression_builder tag must always have a "specification" attribute');
+                    throw new \Exception('The doctrine.query_factory tag must always have a "specification" attribute');
                 }
-                
+
                 $handler->addMethodCall(
-                    'registerBuilder',
+                    'registerFactory',
                     [$attributes['specification'], new Reference($id)]
                 );
             }

@@ -4,9 +4,11 @@
     "type": "bundle",
     "require": {
         "php": ">=5.5",
-        "symfony/framework-bundle": "^2.3|^3.0",
-        "gbprod/doctrine-specification": "^0.1",
-        "symfony/expression-language": "^2.4|^3.0"
+        "symfony/framework-bundle": "^2.7|^3.0",
+        "gbprod/doctrine-specification": "^0.2",
+        "symfony/expression-language": "^2.7|^3.0",
+        "symfony/doctrine-bridge": "^2.7|^2.5",
+        "doctrine/doctrine-bundle": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": ">=4.8"
