@@ -7,7 +7,7 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
 
 /**
  * Configuration
- * 
+ *
  * @author gbprod <contact@gb-prod.fr>
  */
 class Configuration implements ConfigurationInterface
@@ -19,7 +19,7 @@ class Configuration implements ConfigurationInterface
     {
         $treeBuilder = new TreeBuilder();
         $treeBuilder->root('doctrine_specification_bundle');
-        
+
         return $treeBuilder;
     }
 }

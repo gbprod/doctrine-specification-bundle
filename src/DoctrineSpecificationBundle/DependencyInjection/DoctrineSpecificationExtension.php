@@ -9,7 +9,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
  * Extension class for DoctrineSpecificationBundle
- * 
+ *
  * @author gbprod <contact@gb-prod.fr>
  */
 class DoctrineSpecificationExtension extends Extension
@@ -23,10 +23,10 @@ class DoctrineSpecificationExtension extends Extension
         $config = $this->processConfiguration($configuration, $configs);
 
         $loader = new Loader\YamlFileLoader(
-            $container, 
+            $container,
             new FileLocator(__DIR__.'/../Resources/config')
         );
-        
+
         $loader->load('services.yml');
     }
 }
