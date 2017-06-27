@@ -19,7 +19,7 @@ class QueryFactoryPassTest extends \PHPUnit_Framework_TestCase
     {
         $pass = new QueryFactoryPass();
 
-        $this->setExpectedException('\Exception');
+        $this->expectException(\Exception::class);
 
         $pass->process(new ContainerBuilder());
     }
@@ -57,7 +57,7 @@ class QueryFactoryPassTest extends \PHPUnit_Framework_TestCase
 
         $container = $this->createContainerWithHandler();
         $container
-            ->register('factory', '\stdClass')
+            ->register('factory', \stdClass::class)
             ->addTag('doctrine.query_factory')
         ;
 
