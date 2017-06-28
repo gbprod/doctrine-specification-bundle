@@ -7,6 +7,7 @@ use Doctrine\ORM\QueryBuilder;
 use GBProd\DoctrineSpecificationBundle\DependencyInjection\DoctrineSpecificationExtension;
 use GBProd\DoctrineSpecification\Handler;
 use GBProd\DoctrineSpecification\Registry;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
@@ -14,7 +15,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
  *
  * @author gbprod <contact@gb-prod.fr>
  */
-class DoctrineSpecificationExtensionTest extends \PHPUnit_Framework_TestCase
+class DoctrineSpecificationExtensionTest extends TestCase
 {
     private $extension;
     private $container;

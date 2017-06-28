@@ -3,16 +3,16 @@
     "description": "This bundle integrates Doctrine specification with Symfony",
     "type": "bundle",
     "require": {
-        "php": ">=5.6",
-        "doctrine/doctrine-bundle": "^1.0",
-        "gbprod/doctrine-specification": "^1.0",
+        "php": ">=7.0",
+        "doctrine/doctrine-bundle": "^1.5",
+        "gbprod/doctrine-specification": "^2.0",
         "symfony/doctrine-bridge": "^2.7|^2.5",
         "symfony/expression-language": "^2.7|^3.0",
         "symfony/framework-bundle": "^2.7|^3.0",
         "symfony/yaml": "^2.7|^3.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.0"
+        "phpunit/phpunit": "^6.0"
     },
     "license": "MIT",
     "authors": [

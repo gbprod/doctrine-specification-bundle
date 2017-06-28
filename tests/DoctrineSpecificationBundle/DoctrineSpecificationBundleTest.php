@@ -2,20 +2,25 @@
 
 namespace Tests\GBProd\DoctrineSpecificationBundle;
 
-use GBProd\DoctrineSpecificationBundle\DoctrineSpecificationBundle;
-use Symfony\Component\DependencyInjection\ContainerBuilder;
 use GBProd\DoctrineSpecificationBundle\DependencyInjection\Compiler\QueryFactoryPass;
+use GBProd\DoctrineSpecificationBundle\DoctrineSpecificationBundle;
+use PHPUnit\Framework\TestCase;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
  * Tests for Bundle
  *
  * @author gbprod <contact@gb-prod.fr>
  */
-class DoctrineSpecificationBundleTest extends \PHPUnit_Framework_TestCase
+class DoctrineSpecificationBundleTest extends TestCase
 {
     public function testConstruct()
     {
-        new DoctrineSpecificationBundle();
+        $bundle = new DoctrineSpecificationBundle();
+
+        $this->assertInstanceOf(Bundle::class, $bundle);
+        $this->assertInstanceOf(DoctrineSpecificationBundle::class, $bundle);
     }
 
     public function testBuildAddCompilerPass()

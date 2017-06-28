@@ -11,7 +11,7 @@ Thank you for taking time to help.
 
 ## Setup
 
-You should have `php >= 5.6` and `composer` installed (Docker contribution is very welcomed).
+You should have `php >= 7.0` and `composer` installed (Docker contribution is very welcomed).
 
 Setup you're environment:
 ```bash
