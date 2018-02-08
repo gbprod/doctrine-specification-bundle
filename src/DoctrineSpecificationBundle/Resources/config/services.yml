@@ -1,13 +1,16 @@
 services:
     gbprod.doctrine_specification_registry:
         class: GBProd\DoctrineSpecification\Registry
+        public: true
 
     gbprod.query_builder:
         class: Doctrine\ORM\QueryBuilder
         factory: ['@doctrine.orm.entity_manager', 'createQueryBuilder']
+        public: true
 
     gbprod.doctrine_specification_handler:
         class: GBProd\DoctrineSpecification\Handler
         arguments:
             - "@gbprod.doctrine_specification_registry"
             - "@gbprod.query_builder"
+        public: true
