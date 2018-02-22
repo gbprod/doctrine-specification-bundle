@@ -3,6 +3,8 @@ All notable changes to this project will be documented in this file based on the
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased](https://github.com/gbprod/doctrine-specification-bundle/compare/v2.1.0...HEAD)
+ 
+ - Changing licence
 
 ## [v2.1.0](https://github.com/gbprod/doctrine-specification-bundle/compare/v2.0.0...v2.1.0)
 
